@@ -7,7 +7,7 @@ end
 
 
 RegisterServerEvent('JMT:GenerateSsn')
-AddEventHandler('JMTGenerateSsn', function()
+AddEventHandler('JMT:GenerateSsn', function()
     local _source = source
 
     local characterId = ESX.GetPlayerFromId(_source).getIdentifier()
